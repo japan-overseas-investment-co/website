@@ -2528,6 +2528,7 @@ input, select, textarea {
 
 .quick-links {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 1em 0;
 	background-color: #e6e6e6;
@@ -2536,8 +2537,16 @@ input, select, textarea {
 .links {
 	cursor: pointer;
 	text-decoration: none;
+	border: 0;
 }
 
 .links:hover {
 	text-decoration: underline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
