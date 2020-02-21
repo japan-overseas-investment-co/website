@@ -2516,3 +2516,28 @@ input, select, textarea {
 .language-select a {
 	margin: 0 5%;
 }
+
+.location {
+	font-weight: 300 !important;
+	font-size: 1em !important;
+}
+
+.profile-header {
+	text-align: center;
+}
+
+.quick-links {
+	display: flex;
+	justify-content: space-around;
+	padding: 1em 0;
+	background-color: #e6e6e6;
+}
+
+.links {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.links:hover {
+	text-decoration: underline;
+}
