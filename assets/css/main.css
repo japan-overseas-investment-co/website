@@ -2550,3 +2550,22 @@ input, select, textarea {
   margin-right: auto;
   width: 50%;
 }
+
+.sub-title {
+	text-align:center;
+	font-weight: 300;
+	padding-bottom: 1em;
+}
+
+.ordered-title {
+	text-align: left;
+	font-weight: 300;
+}
+
+.ordered-body {
+	padding-left: 2em;
+}
+
+.bottom {
+	padding-bottom: 5em;
+}
