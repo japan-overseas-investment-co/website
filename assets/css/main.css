@@ -2569,3 +2569,7 @@ input, select, textarea {
 .bottom {
 	padding-bottom: 5em;
 }
+
+.carousel-indicators {
+	visibility: hidden;
+}
